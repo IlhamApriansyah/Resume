@@ -29,6 +29,6 @@ function Alert(){
         title: 'Selamat datang di Resume saya',
         showClass: {
           popup: 'animate__heartBeat'
-        },
+        }
       })
 }
