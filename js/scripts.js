@@ -25,10 +25,25 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 function Alert(){
+    let timerInterval
     Swal.fire({
-        title: 'Selamat datang di Resume saya',
-        showClass: {
-          popup: 'animate__heartBeat'
-        }
-      })
+      title: 'Peringatan!',
+      html: 'Selamat datang di resume saya',
+      timer: 2000,
+      timerProgressBar: true,
+      didOpen: () => {
+        Swal.showLoading()
+        const b = Swal.getHtmlContainer().querySelector('b')
+        timerInterval = setInterval(() => {
+          b.textContent = Swal.getTimerLeft()
+        }, 100)
+      },
+      willClose: () => {
+        clearInterval(timerInterval)
+      }
+    }).then((result) => {
+      if (result.dismiss === Swal.DismissReason.timer) {
+        console.log('I was closed by the timer')
+      }
+    })
 }
