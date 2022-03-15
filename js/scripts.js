@@ -29,7 +29,7 @@ function Alert(){
     Swal.fire({
       title: 'Peringatan!',
       html: 'Selamat datang di resume saya',
-      timer: 2000,
+      timer: 10000,
       timerProgressBar: true,
       didOpen: () => {
         Swal.showLoading()
