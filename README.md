@@ -1,2 +1,2 @@
-# Portofolio
-Portofolio yang dibuat dengan template Bootstrap
+# Resume
+Resume yang dibuat dengan template Bootstrap
