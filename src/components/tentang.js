@@ -16,7 +16,7 @@ export function renderAbout(container) {
         <div class="shrink-0">
           <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-lg border-2 border-terminal-green overflow-hidden bg-terminal-border">
             <img
-              src="assets/img/profile.jpg"
+              src="https://avatars.githubusercontent.com/u/90132863?v=4"
               alt="Foto Profil"
               class="w-full h-full object-cover"
               onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-terminal-green text-3xl font-bold\'>U</div>'"
@@ -66,12 +66,13 @@ export function renderAbout(container) {
           { key: "email", value: "ilhamapriansyah471@gmail.com", icon: "✉️" },
           {
             key: "github",
-            value: "https://github.com/IlhamApriansyah",
+            value:
+              "<a href='https://github.com/IlhamApriansyah'> Klik disini </a>",
             icon: "⎇",
           },
           {
             key: "status",
-            value: "Terbuka untuk kerja kantor / freelance",
+            value: "Terbuka untuk kerja kantoran / freelance",
             icon: "◉",
           },
         ]
@@ -119,7 +120,7 @@ export function renderAbout(container) {
               color: "border-terminal-muted",
               labelColor: "text-terminal-muted",
               skills: [
-                "Linux",
+                "Linux desktop",
                 "MVC (Move-View-Controller)",
                 "OOP (Object-Oriented-Programming)",
               ],
