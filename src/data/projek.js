@@ -1,7 +1,7 @@
-export const projectsData = [
+export const proyek = [
   {
-    name: "Coming Soon",
-    description: "",
+    nama: "Coming Soon",
+    deskripsi: "Testing",
     lang: "JavaScript",
     langColor: "text-terminal-yellow border-terminal-yellow",
     repo: "",

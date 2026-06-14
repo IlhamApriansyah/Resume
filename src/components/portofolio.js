@@ -1,4 +1,4 @@
-import { projectsData } from "../data/projek.js";
+import { proyek } from "../data/projek.js";
 
 export function renderPortfolio(container) {
   container.innerHTML = `
@@ -6,18 +6,18 @@ export function renderPortfolio(container) {
       ls ~/projects
     </h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      ${projectsData
+      ${proyek
         .map(
           (p) => `
         <div class="project-card">
           ${
             p.image
-              ? `<img src="${p.image}" alt="${p.name}"
+              ? `<img src="${p.image}" alt="${p.nama}"
             class="w-full h-32 object-cover rounded mb-3 opacity-80"/>`
               : ""
           }
-          <h3 class="text-terminal-cyan font-semibold mb-1">${p.name}</h3>
-          <p class="text-terminal-muted text-sm mb-3">${p.description}</p>
+          <h3 class="text-terminal-cyan font-semibold mb-1">${p.nama}</h3>
+          <p class="text-terminal-muted text-sm mb-3">${p.deskripsi}</p>
           <div class="flex items-center justify-between">
             <span class="lang-badge ${p.langColor}">${p.lang}</span>
             <a href="${p.repo}" target="_blank"

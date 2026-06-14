@@ -1,12 +1,13 @@
-export const educationData = [
+export const pendidikan = [
   {
-    institution: "Universitas Pendidikan Indonesia",
-    degree: "Pendidikan Informatika / PPG Prajabatan",
-    year: "2024 – 2025",
+    institusi: "Universitas Pendidikan Indonesia",
+    jurusan: "Pendidikan Informatika / PPG Prajabatan",
+    tahun: "2024 – 2025",
   },
   {
-    institution: "Universitas Islam Syekh-Yusuf Tangerang",
-    degree: "Teknik Informatika / S1",
-    year: "2019 - 2023",
+    institusi: "Universitas Islam Syekh-Yusuf Tangerang",
+    jurusan: "Teknik Informatika / S1",
+    tahun: "2019 - 2023",
+    ipk: 3.95,
   },
 ];
