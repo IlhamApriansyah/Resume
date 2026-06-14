@@ -1,11 +1,10 @@
 export const proyek = [
   {
-    nama: "Coming Soon",
-    deskripsi: "Testing",
+    nama: "Jurnal Apps",
+    deskripsi: "menulis dan menyimpan jurnal ",
     lang: "JavaScript",
     langColor: "text-terminal-yellow border-terminal-yellow",
-    repo: "",
-    image: "assets/img/projects/journal-app.png",
+    repo: "https://ilhamapriansyah.github.io/JurnalApps/",
+    image: "assets/img/jurnal.png",
   },
-  // tambah projek lain...
 ];
