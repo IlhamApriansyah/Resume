@@ -5,6 +5,11 @@ export const pekerjaan = [
     tanggal: "Juli 2025 - Sekarang",
   },
   {
+    institusi: "Rin Education",
+    deskripsi: "Menjadi pengajar secara sukarela",
+    tanggal: "Juli 2025 - Sekarang",
+  },
+  {
     institusi: "Yayasan Darmawathi Arief",
     deskripsi:
       "Menjadi guru Informatika (TIK) dan Bahasa Inggris untuk jenjang Sekolah Dasar",
