@@ -15,4 +15,12 @@ export const proyek = [
     repo: "https://ilhamapriansyah.github.io/Check-Cortisol/",
     // image: "assets/img/.png",
   },
+  {
+    nama: "To-Do List",
+    deskripsi: "Menulis dan menyimpan daftar tugas",
+    lang: "TailwindCSS",
+    langColor: "text-terminal-red border-terminal-red",
+    repo: "https://ilhamapriansyah.github.io/To-Do-List/",
+    // image: "assets/img/.png",
+  },
 ];
