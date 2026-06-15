@@ -4,6 +4,7 @@ const navLinks = [
   { id: "tentang", label: "./tentang" },
   { id: "pendidikan", label: "./pendidikan" },
   { id: "portofolio", label: "./portofolio" },
+  { id: "pekerjaan", label: "./pekerjaan" },
 ];
 
 export function renderNavbar() {
@@ -53,6 +54,7 @@ export function renderNavbar() {
             <span class="block w-5 h-0.5 bg-current" id="bar1"></span>
             <span class="block w-5 h-0.5 bg-current" id="bar2"></span>
             <span class="block w-5 h-0.5 bg-current" id="bar3"></span>
+            <span class="block w-5 h-0.5 bg-current" id="bar4"></span>
           </button>
         </div>
 

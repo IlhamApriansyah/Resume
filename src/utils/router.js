@@ -1,11 +1,13 @@
 import { renderAbout } from "../components/tentang.js";
 import { renderEducation } from "../components/pendidikan.js";
 import { renderPortfolio } from "../components/portofolio.js";
+import { renderWork } from "../components/pekerjaan.js";
 
 const routes = {
   tentang: renderAbout,
   pendidikan: renderEducation,
   portofolio: renderPortfolio,
+  pekerjaan: renderWork,
 };
 
 export function navigate(page) {
