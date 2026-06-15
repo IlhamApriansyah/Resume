@@ -2,9 +2,17 @@ export const proyek = [
   {
     nama: "Jurnal Apps",
     deskripsi: "menulis dan menyimpan jurnal ",
-    lang: "JavaScript",
-    langColor: "text-terminal-yellow border-terminal-yellow",
+    lang: ["AlertJS", "TailwindCSS"],
+    langColor: "text-terminal-red border-terminal-red",
     repo: "https://ilhamapriansyah.github.io/JurnalApps/",
     image: "assets/img/jurnal.png",
+  },
+  {
+    nama: "Check Cortisol",
+    deskripsi: "menulis dan menyimpan jurnal ",
+    lang: "TailwindCSS",
+    langColor: "text-terminal-cyan border-terminal-cyan",
+    repo: "https://ilhamapriansyah.github.io/Check-Cortisol/",
+    // image: "assets/img/.png",
   },
 ];
