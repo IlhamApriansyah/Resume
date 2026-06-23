@@ -13,7 +13,7 @@ export const proyek = [
     lang: "TailwindCSS",
     langColor: "text-terminal-cyan border-terminal-cyan",
     repo: "https://ilhamapriansyah.github.io/Check-Cortisol/",
-    // image: "assets/img/.png",
+    image: "assets/img/kortisol.png",
   },
   {
     nama: "To-Do List",
@@ -21,6 +21,6 @@ export const proyek = [
     lang: "TailwindCSS",
     langColor: "text-terminal-red border-terminal-red",
     repo: "https://ilhamapriansyah.github.io/To-Do-List/",
-    // image: "assets/img/.png",
+    image: "assets/img/ToDoList.png",
   },
 ];
