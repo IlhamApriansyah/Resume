@@ -37,7 +37,7 @@ export function renderAbout(container) {
           </div>
 
           <p class="text-terminal-muted text-sm leading-relaxed">
-          Laki-laki, 25 Tahun, lajang
+          Laki-laki, 25 Tahun, belum menikah
           <br>
           Saya sedang memperbaiki beberapa repository agar layak untuk dibagikan ke publik
           <br>
