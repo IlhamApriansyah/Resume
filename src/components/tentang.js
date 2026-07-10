@@ -39,14 +39,14 @@ export function renderAbout(container) {
           <p class="text-terminal-muted text-sm leading-relaxed">
           Laki-laki, 25 Tahun
           <br>
-          Saya sedang memperbaiki beberapa repository agar layak untuk dibagikan ke publik
+          Saya akan menjadi lebih baik dari beberapa waktu sebelumnya
           <br>
-          Fokus saat ini : Javascript (NodeJS) dan Python (PyTinker)
+          Fokus saat ini : Javascript (NodeJS)
           </p>
 
           <!-- Tags -->
           <div class="flex flex-wrap gap-2">
-            ${["Node.js", "GitHub"]
+            ${["Node.js", "Javascript", "PHP", "Python", "Linux"]
               .map(
                 (tag) => `
               <span class="text-xs font-mono px-2 py-0.5 rounded border border-terminal-border text-terminal-muted">
@@ -101,13 +101,13 @@ export function renderAbout(container) {
               category: "Frontend",
               color: "border-terminal-cyan",
               labelColor: "text-terminal-cyan",
-              skills: ["HTML & CSS", "JavaScript (ES6+)", "Tailwind CSS"],
+              skills: ["HTML & CSS", "JavaScript", "Tailwind CSS"],
             },
             {
               category: "Backend",
               color: "border-terminal-green",
               labelColor: "text-terminal-green",
-              skills: ["Node.js"],
+              skills: ["Node.js", "Python", "PHP"],
             },
             {
               category: "Tools",
