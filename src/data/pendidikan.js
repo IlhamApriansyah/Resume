@@ -8,6 +8,6 @@ export const pendidikan = [
     institusi: "Universitas Islam Syekh-Yusuf Tangerang",
     jurusan: "Teknik Informatika / S1",
     tahun: "2019 - 2023",
-    ipk: 3.95,
+    ipk: 3.59,
   },
 ];

@@ -3,7 +3,7 @@ import { proyek } from "../data/projek.js";
 export function renderPortfolio(container) {
   container.innerHTML = `
     <h2 class="terminal-prompt text-xl font-bold mb-6 text-terminal-green">
-      ls ~/projects
+      ls ~/portofolio
     </h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       ${proyek
